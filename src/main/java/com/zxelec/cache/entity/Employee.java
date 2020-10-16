@@ -1,9 +1,11 @@
 package com.zxelec.cache.entity;
 
+import java.io.Serializable;
+
 /**
  * @author vimicro
  */
-public class Employee {
+public class Employee implements Serializable {
 	
 	private Integer id;
 	private String lastName;
