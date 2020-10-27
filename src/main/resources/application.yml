@@ -1,3 +1,24 @@
+#################################################----springboot 配置文件-----#############################################
+person:
+  last-name: 张三
+  age: 18
+  boss: false
+  birthday: 2002/8/15
+  email: zhangsan@qq.com
+  maps: {k1: v1,k2: v2}
+  lists:
+    - handsome
+    - sweet
+    - white
+  dog:
+    name: 小黄
+    age:
+    color: [yellow,red,green]
+
+teacher:
+  name: 小明
+  age: 18
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=true
